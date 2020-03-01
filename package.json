@@ -1,0 +1,23 @@
+{
+  "name": "jest-function",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bugtest": "jest",
+    "test": "jest --coverage",
+    "start": "node index.js"
+  },
+  "author": "renat",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "babel-jest": "^25.1.0",
+    "jest": "^25.1.0"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4"
+  }
+}
